@@ -1,0 +1,11 @@
+    {% extends 'base.html' %}
+
+    {% block conteudo %}
+    <h1>Olá Mundo! {{nome}}</h1>
+    <p>
+       <img class="imgquadrado" src="{{url_for('static', filename='cadeira-de-papelao-1.png')}}"/><br><br>
+
+       Profissão: {{dados.profissao}}<br>
+       Área:  {{dados.area}}<br>
+    </p>
+    {% endblock %}

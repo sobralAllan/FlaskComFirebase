@@ -1,0 +1,10 @@
+.imgquadrado{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    background-color: #129012;
+    color: #999;
+    text-align: center;
+}
